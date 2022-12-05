@@ -1,0 +1,41 @@
+Boiler plate 
+   <html>
+     <head>
+       // meta datas
+       //title
+     </head>
+     <body>
+       // website content
+      </body>
+   </html>
+      
+
+Differnet types of tags 
+        Block level elements ...
+            <div></div>
+            <h1></h1> -- 6 types h1 to h6
+            <p> auto resize (responsiveness)</p>
+        inline elements ...
+           <span></span>
+           <i></i>
+           <b></b>
+Without css highlighter 
+   <mark></mark>
+
+// breaks and horizantal 
+Differnt Inputs 
+  //  to get values from the user  
+     
+     elemenst and attributes
+      <input type="text" placeholder="Enter the name" name="name"/>
+        input -> elements
+        type -> attributes 
+
+Differnet Types of list 
+   // unordered list 
+    step1 : <ul></ul>
+    step2 : <li></li>
+   // ordered    list
+    step1 : <ol></ol>
+    step2 : <li></li>
+    
