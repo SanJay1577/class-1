@@ -42,9 +42,11 @@
      <br/><br/>
 <hr/>
 <br/>
-   <h1>Forms</h1>
-     
+   <h1> Basic Forms</h1>
+
    <form>
+    <section>
+      <article>
      <label for="firstname">
       First Name : 
        <input
@@ -71,19 +73,81 @@
         required
         name="mail"/>
      </label> <br> <br>
+    </article>
 
+   <article>
      <button type="submit">submit</button>
-      
-   </form>
-     
-    <div>
-    <section> section
-      <aside>aside</aside>
-      <article>Article</article>
-    </section>
-  </div>
+    </article>
 
+    </section>
+   </form>
+   
+
+   <hr> <br>
+   <h1>Semantic Forms</h1>
+       <fieldset>
+        <legend><h2>Semantic form</h2></legend>
+         <form>
+          <label for="firstname">
+            First Name : 
+             <input
+              type="text"
+              placeholder="Enter your First name"
+              required
+              name="firstname"/>
+           </label>
+           
+           <label for="lastname">
+            Last Name: 
+             <input
+              type="text"
+              placeholder="Enter your last name"
+              required
+              name="lastname"/>
+           </label> <br> <br>
+
+           <button type="submit">submit</button>
+
+         </form>
+   
+       </fieldset>
+  </div>
+ <br>
  <hr/>
+     <br>
+     <h1>Tables</h1>
+        <table border="1" cellspacing="5" cellpadding="5">
+
+          <thead>
+              <th>Student name</th>
+              <th>Student age</th>
+              <th>experience</th>
+          </thead>
+
+          <tbody>
+             <tr>
+              <td>sanjay</td>
+               <td colspan="2">Nil</td>
+             </tr>
+
+             <tr>
+              <td>pradeep</td>
+              <td rowspan="2">22</td>
+              <td>2</td>
+             </tr>
+
+             <tr>
+              <td>ajay</td>
+              <td>3</td>
+           
+             </tr>
+
+          </tbody>
+
+        </table>
+
+  <br>
+   <hr/>
  <br/><br/>
 
         <h1> Input Fileds</h1> 

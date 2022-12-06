@@ -41,14 +41,43 @@ Differnet Types of list
     
 
 6/12/2022 - 
-   - Differnet Input types 
-        anchors and image resize
+   - Differnet Input types  - done
+        anchors and image resize - done
    - form (basic)
-        basic form is over
-          section , article , div
-   - semantic tags (important interview questions)
-   - tables 
+        basic form is over - done
+          section , article , div - done
+   - semantic tags (important interview questions) - done
+   - tables - done
 
 
    Interview Questions (FAQ)
-      - semantic 
+      - html is a markup language 
+      - semantic   -(eg
+       <div>
+          <header>
+          logo
+            <nav>
+              login sign up 
+            </nav>
+          </header>
+          <main>
+              body content
+          </main>
+          <footer>   
+              conact us    
+          </footer>
+         </div>
+            )
+      - Differnet inputs 
+      - links in new page
+      - table
+
+inclass task 
+  - form 
+     -section 
+        article 
+           inputs (firstname lastname email address)(required)
+
+         article
+            button submit
+
