@@ -11,19 +11,26 @@
 </head>
 <body>
  <!-- block level elements     -->
- <div>
+ <section>
      <div>I'm an block level element</div>
      <div style="background-color: red"><i>I'm a block</i> <span style="background-color:green">I'm a span</span></div>
-    <h1 style="background-color: red"><mark>Headings 1</mark></h1>
+  
+  <article>
+     <h1 style="background-color: red"><mark>Headings 1</mark></h1>
     <h2>Headings 2</h2>
     <h3>Headings 3</h3>
     <h4>Headings 4</h4>
     <h5>Headings 5</h5>
     <h6>Headings 6</h6>
+  </article>
+
+  <article>
     <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente nam asperiores qui excepturi commodi provident ex. Eos molestias facere quaerat inventore odit praesentium dolore quo nesciunt a debitis? Cupiditate, earum!
     Porro quia deleniti harum, dolores optio sit rem sapiente, perferendis incidunt facere placeat velit quas quasi deserunt dignissimos ea corporis soluta provident necessitatibus nostrum reprehenderit, tenetur et! Distinctio, molestias odit!
     </p>
-</div>
+  </article>
+
+ </section>
 
 <!-- inline elements -->
 <span style="background-color:green">I'm an inline element</span>
@@ -34,6 +41,50 @@
      <mark>I'm a highlighted one</mark>
      <br/><br/>
 <hr/>
+<br/>
+   <h1>Forms</h1>
+     
+   <form>
+     <label for="firstname">
+      First Name : 
+       <input
+        type="text"
+        placeholder="Enter your First name"
+        required
+        name="firstname"/>
+     </label>
+     
+     <label for="lastname">
+      Last Name: 
+       <input
+        type="text"
+        placeholder="Enter your last name"
+        required
+        name="lastname"/>
+     </label> <br> <br>
+
+     <label for="mail">
+      Email  : 
+       <input
+        type="email"
+        placeholder="Enter your email"
+        required
+        name="mail"/>
+     </label> <br> <br>
+
+     <button type="submit">submit</button>
+      
+   </form>
+     
+    <div>
+    <section> section
+      <aside>aside</aside>
+      <article>Article</article>
+    </section>
+  </div>
+
+ <hr/>
+ <br/><br/>
 
         <h1> Input Fileds</h1> 
 
@@ -46,17 +97,60 @@
         </label>  <br/> <br/>
        
         
-        <label for="name">Enter Your Number : 
+        <label for="number">Enter Your Number : 
             <input 
             type="number" 
             placeholder="Enter the name" 
-            name="name"/>
+            name="number"/>
         </label>  <br/> <br/>
 
         <input type="color"/> <br>
-        <input type="checkbox"/> allow me <br>
+        <input type="checkbox"/>  <br>
         <input type = "date"/> <br>
         <input type ="datetime-local"/> <br>
+        <input type="email" placeholder="Enter the Email"/><br>
+        <input type="file"/><br> 
+        <input type="hidden"/><br>
+        <input type="image"/><br>
+        <input type="password"/><br>
+        <input type="radio" name="gender"/> male <br>
+        <input type="radio" name="gender"/> female <br>
+        <input type="radio" name="gender"/> others <br>
+        <input type="range"/><br>
+        <input type ="reset"/><br>
+        <input type="search" placeholder="search here"/><br>
+        <input type="time"/><br>
+        <input type="week"/><br>
+        <input type="url" placeholder="please type a url"><br>
+
+         <select>
+          <option >Choose one</option>
+          <option selected>Aplle, Orange, Grapes</option>
+          <option disabled>Orange</option>
+          <option>grapes</option>
+         </select>
+        
+
+
+         <input list="fruits" type="text" placeholder="enter the name"/> <br>
+
+          <datalist id="fruits">
+            <option>Aplle, Orange, Grapes</option>
+            <option>Orange</option>
+            <option>grapes</option>
+          </datalist>
+
+          <textarea></textarea>
+  
+
+    <button type="submit">submit</button>
+       
+    <hr/>
+    <h1>Links </h1>    
+       <h3>Anchor tags</h3>
+     <a href="https://www.google.co.in/" target="_blank">Google</a>
+
+     <img src="https://i.pinimg.com/originals/c7/93/ae/c793ae372886c450d55535211231204e.jpg" alt="Dog" width="300" height="300">
         <br> <br>
      <hr/>
 
@@ -76,6 +170,7 @@
             <li>Three</li>
             <li>Four</li>
           </ol>
+          
 </body>
 
 </html>

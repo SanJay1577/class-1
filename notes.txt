@@ -39,3 +39,16 @@ Differnet Types of list
     step1 : <ol></ol>
     step2 : <li></li>
     
+
+6/12/2022 - 
+   - Differnet Input types 
+        anchors and image resize
+   - form (basic)
+        basic form is over
+          section , article , div
+   - semantic tags (important interview questions)
+   - tables 
+
+
+   Interview Questions (FAQ)
+      - semantic 
